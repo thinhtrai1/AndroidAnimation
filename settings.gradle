@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AndroidAnimation"
+include ':app'
+include ':SceneTransitionBasic'
+include ':BasicTransition'
+include ':CustomTransition'
+include ':DrawableAnimations'
+include ':GridToPager'
+include ':Interpolator'
+include ':Motion'
+//include ':MotionCompose'
+include ':OurStreets'
+include ':RevealEffectBasic'
+include ':Unsplash'

@@ -1,0 +1,22 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Project exclude paths
+/BasicTransition/build/
+/CustomTransition/build/
+/GridToPager/build/
+/DrawableAnimations/build/
+/Interpolator/build/
+/Motion/build/
+/OurStreets/build/
+/RevealEffectBasic/build/
+/SceneTransitionBasic/build/
+/Unsplash/build/
